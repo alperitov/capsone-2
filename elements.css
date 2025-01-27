@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;   
+}
+
+
+.home-picture {
+    justify-self: end;
+}
+
+h6, h1, p {
+    font-size: 1.2rem;
+    color: rgb(26, 26, 26);
+}
+
+h6 {
+    color: #0f0f0f96;
+}
+
+h1 {
+    font-size: 3.2rem;
+    color: #000;
+}
+
+.buttons {
+    margin-top: 24px;
+}
+
+.buttons a.contact {
+    border: solid 1px rgb(26, 26, 26);
+    text-decoration: none;
+    background-color: rgb(26, 26, 26);
+    color: #f2f2f2;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    padding: .8rem 1.5rem;
+    transition: background-color 500ms;
+    /* width: 96px; */
+}
+
+.buttons a.contact:hover {
+    background-color: #000;
+    transition: 500ms;
+}
+
+.buttons a.portfolio {
+    text-decoration: none;
+    border: solid 1px rgb(26, 26, 26);
+    color: rgb(26, 26, 26);
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    padding: .8rem 1.5rem;
+    transition: border 100ms;
+    /* width: 96px; */
+}
+
+.buttons a.portfolio:hover {
+    border: solid 2px rgb(26, 26, 26);
+    transition: 100ms;
+}
+
+.services h2 {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 2.2rem;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.services-content h3 {
+    padding-bottom: 1.2rem;
+}
+
+.services p {
+    font-size: 1.2rem;
+}
+
+.sec-portfolio h2 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    color: rgb(26, 26, 26);
+    font-size: 2.2rem;
+}
